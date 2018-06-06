@@ -22,8 +22,6 @@ function maybeTrue() {
 
 function doWhileLoop(array){
   do {
-    console.log(--num)
-  } while (array.length>0 && maybeTrue()) {
     array.remove(1)
-  }
+  } while (array.length>0 && maybeTrue())
 }
