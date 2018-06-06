@@ -26,7 +26,4 @@ function doWhileLoop(array){
   } while (array.length>0 && maybeTrue()) {
     array.remove(1)
   }
-  
-  }
-  
 }
