@@ -24,7 +24,7 @@ function doWhileLoop(array){
   do {
     console.log(--num)
   } while (array.length>0 && maybeTrue()) {
-    array.remove()
+    array.remove(1)
   }
   
   }
