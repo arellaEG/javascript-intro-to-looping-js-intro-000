@@ -15,3 +15,18 @@ function whileLoop(num){
   }
   return ('done')
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(array){
+  do {
+    console.log(--num)
+  } while (array.length>0 && maybeTrue()) {
+    array.remove()
+  }
+  
+  }
+  
+}
